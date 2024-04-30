@@ -1,6 +1,6 @@
 name: First Workflow
 
-# Allow Manually trigger 
+# Allow Manual trigger 
 on: workflow_dispatch
 
 jobs:

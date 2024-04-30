@@ -1,6 +1,6 @@
 name: First Workflow
 
-# Allow Manual trigger 
+# Allow Manual trigger
 on: workflow_dispatch
 
 jobs:
@@ -10,7 +10,6 @@ jobs:
       - name: Print greeting
         run: |
           echo "Hello World!"
-          echo "First Command"
+          echo "Second Command"
       - name: Print goodbye
         run: echo "Done - bye"
-    
